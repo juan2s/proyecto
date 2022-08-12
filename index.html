@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ESTRAIDO DE GOOGLE FONT--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+    <!--ESTRAIDO DE GOOGLE FONT--->
+    
+    <link rel="stylesheet" href="diseño.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!--para agrupar link o imagenes-->
+    <header>
+        <h1 id="titulo">Blog de Juan</h1>
+    </header>
+    <!--Div funciona igual que el section-->
+    <!--Pero es mas recomendado usar article-->
+    <section class="container">
+        <!--Para difinir los post de el blog-->
+        <article class="post">
+            <h2 id="titulo2">Titulo del post</h2>
+            <p>Descripcion del post</p>
+            <img src="img/imagen.jpg" width="400px">
+            <p>Texto del articulo y es texto de prueba</p>
+        </article>
+        <br><br><br>
+        <article class="post">
+            <h2>Titulo del post 2</h2>
+            <p>Descripcion del post 2</p>
+            <img src="img/coffee.png" width="400px">
+            <p>Texto del articulo 2 y es texto de prueba </p>
+        </article>
+    </section>
+    <!--Pie de pagina, se utiliza por lo general para informacion de la empresao pagina, contacto, copirght, links para volver al inicio-->
+    <footer>
+        <section>
+        <!--href se utiliza para que vaya a la secion sin necessidad de refrescar la pagina-->
+        <a href="#titulo">Ir al titulo</a>
+        <!--Mailto sirve para redirijir directametne a un correo-->
+        <a href="mailto:juanguz122@gmail.com">Contactar</a>
+        </section>
+        <p>Copyright 2021</p>
+    </footer>
+</body>
+</html>

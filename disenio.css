@@ -1,0 +1,107 @@
+html{
+    /*Se extrae de google font*/
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #adfcff;
+    
+}
+
+header{
+    /*COLOR DE LA CABECERA*/
+    background-color: #364552;
+    /*Color del texto*/
+    color: rgb(255, 255, 255);
+    padding: 3rem 2rem;
+}
+
+header h1{
+    /*Agrandar el texto*/
+    font-size: 4rem;
+    /*Centrar el texto*/
+    text-align: center;
+}
+
+.container{
+    /*Se usa el width por que las imagenes tiene esa medida
+    esta es la medida de el cuadro entero*/
+    width: 400px;
+
+    /*Se utiliza para centrar el contenido*/
+    margin: 0 auto;
+}
+
+section article{
+    /*La sombre que se la va aponer cuando pasamos el mouse por encima*/
+    transition: box-shadow 0.3s ease;
+    
+    /*Color del post*/
+    background-color: #fff;
+
+    /*Margen 1 vertical y  0 horizontal*/
+    margin: 1 rem 0;
+
+    /*Borde radius*/
+    border-radius: 0.5rem;
+
+    /*Texto vertical y orizantal*/
+    padding: 0.25rem 0;
+
+    /*Es la accion que realiza cuando se pone el mouse encima*/
+    /*Osea que al poner el mouse se transforme en un pointer*/
+    cursor: pointer;
+}
+
+section article:hover {
+    /*Section article se utilica para cuando se pone el
+    mouse encima de una de las tarjetas*/
+    /*Se utiliza para dar cunato se va  a ver la sombra de
+    izquierda, hacia abajo, y la difuminacion y el color, en el
+    colo en el ultimo solo se vea visivle en un 30%*/
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3)
+}
+
+section article h2, section article p {
+    /*Esto hace que se corra el texto un poco hacia la dereche*/
+    /*Margen del texto*/
+    margin: 1rem;
+}
+
+footer{
+    /*Color del footer*/
+    background-color: #364552;
+
+    /**/
+    padding: 3rem;
+
+    /*Color de las fuentes*/
+    color: #fff;
+}
+
+footer section{
+    /*Esto es para posicionar el texto*/
+    float: right;
+}
+
+
+footer p{
+    /*Para quitar el espacio y que quede alineado
+    con el texto*/
+    margin: 0;
+}
+
+footer a{
+    /*Color del texto*/
+    color: aliceblue;
+}
+
+footer a:hover{
+    /*realizar una transicion en el cambio de color*/
+    /*Se llama color porque es al que quiere que se le haga la
+    trancision*/
+    transition: color 0.3s ease;
+    /*Cuando se pone el mouse encima del link*/
+    color: cornflowerblue;
+}
